@@ -94,7 +94,7 @@ class Api {
 
 }
 const api = new Api({
-    url: "http://backend.bender.mesto.nomoredomains.sbs",
+    url: "https://backend.bender.mesto.nomoredomains.sbs",
 });
 
 export default api;

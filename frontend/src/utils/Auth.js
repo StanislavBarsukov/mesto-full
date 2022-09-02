@@ -1,4 +1,4 @@
-export const BASE_URL = "http://backend.bender.mesto.nomoredomains.sbs";
+export const BASE_URL = "https://backend.bender.mesto.nomoredomains.sbs";
 
 const checkResponse = (response) => {
     return response.ok ? response.json() : Promise.reject(`Ошибка ${response.status}`)

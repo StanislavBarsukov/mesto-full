@@ -1,0 +1,8 @@
+.content {
+    margin-top: 42px;
+}
+@media screen and (min-width: 1024px) {
+    .content {
+        margin-top: 40px;
+    }
+}

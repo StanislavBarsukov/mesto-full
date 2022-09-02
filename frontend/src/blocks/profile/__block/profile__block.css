@@ -1,0 +1,17 @@
+.profile__block {
+   min-width: 282px;
+   display: grid;
+   margin: 23px 0 36px;
+   grid-template-columns: fit-content(80%) max-content;
+   text-align: center;
+   justify-content: center;
+   gap: 14px 10px;
+}
+@media screen and (min-width: 1024px) {
+    .profile__block {
+        min-width: 336px;
+        margin: 0;
+        gap: 16px 18px;
+        text-align: start;
+    }
+}

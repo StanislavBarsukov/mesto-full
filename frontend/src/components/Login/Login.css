@@ -1,0 +1,84 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 8px;
+    max-width: 260px;
+    width: 100%;
+}
+@media screen and (min-width:700px) {
+    .login {
+        max-width: 358px;
+       padding-top: 8px;
+    }
+}
+
+.login__title {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+@media screen and (min-width:700px) {
+    .login__title {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 50px;
+    }
+}
+.login__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login__form input {
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+    -webkit-box-shadow: inset 0 0 0 50px black;
+    -webkit-text-fill-color: #FFFFFF;
+}
+.login__form input:first-of-type {
+    margin-top: 0;
+}
+
+.login__form span {
+    margin-top: 13px;
+    border: 2px solid #CCCCCC;
+}
+
+.login__form button {
+    margin-top: 173px;
+    padding: 14px 35px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+.login__form button:hover {
+    opacity: 0.85;
+}
+@media screen and (min-width:700px) {
+    .login__form button {
+        margin-top: 216px;
+        padding: 14px 84px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+.login__link {
+
+}

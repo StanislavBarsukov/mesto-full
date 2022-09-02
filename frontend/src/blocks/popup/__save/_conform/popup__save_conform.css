@@ -1,0 +1,9 @@
+.popup__save_conform{
+    margin-top: 0;
+}
+@media screen and (min-width:700px) {
+    .popup__save_conform{
+        margin-top: 0;
+
+    }
+}

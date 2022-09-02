@@ -1,0 +1,8 @@
+.popup__title_conform{
+    margin-bottom: 95px;
+}
+@media screen and (min-width: 700px) {
+    .popup__title_conform {
+        margin-bottom: 38px;
+    }
+}
